@@ -1,0 +1,113 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: black;
+}
+
+
+l{
+    font-family: Gruppo;
+    font-size: 22px;
+}
+p{
+    font-family: Gruppo;
+    font-size: 30px;
+}
+
+.menuinicial{
+    position: fixed;
+    opacity: 30%;
+    display: flex;
+    justify-content: space-between;
+    background-color:black;
+    width: 100%;
+    z-index: 9999;
+}
+
+
+.logo{
+
+    font-family: Gruppo;
+    font-size: 60px;
+    color: white;
+    background-color: black;
+}
+
+.divbutton{
+
+    background-color: black;
+
+}
+
+.button{
+
+    cursor: pointer;
+    font-size: 25px;
+    color: white;
+    font-family: Gruppo;
+    background-color: black;
+    border: solid black 1px;
+    margin-top: 30px;
+    margin-left: 10px;
+    margin-right: 10px;
+
+
+}
+
+.button divbutton:hover{
+
+    color: #008BFF
+
+}
+.imagenpresentacion{
+
+    width: 100%;
+    height: 650px;
+    display: inline-block;
+    opacity: 70%;
+}
+
+.foto1{
+    width: 100%;
+    height: 100%;
+  /*  opacity: 70%;*/
+}
+
+.profile{
+    opacity: 70%;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+
+.profile div{
+
+}
+
+.imgprofile{
+    background-color: cyan;
+   margin-left: 50px;
+    display: inline;
+    width: 50%;
+    opacity: 70%;
+}
+
+.presentation{
+    margin-left: 50px;
+    width: 50%;
+    font-family: Gruppo;
+    font-size: 60px;
+    color: white;
+    background-color: black;
+}
+
+.space{
+    height: 55px;
+}
+
+@media (max-width: 720px){
+
+}
