@@ -1,0 +1,41 @@
+.career{
+    justify-content: space-between;
+    margin-top: 50px;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+.studies{
+    margin-top: 80px;
+    margin-left: 50px;
+    justify-content: center;
+    font-family: Gruppo;
+    font-weight: bolder;
+    font-size: 60px;
+    color: black;
+    /*background-color: darkslategrey;*/
+
+}
+
+.work{
+    margin-top: 80px;
+    font-family: Gruppo;
+    font-weight: bolder;
+    font-size: 60px;
+    color: black;
+
+}
+.proyects{
+    margin-top: 80px;
+    margin-right: 50px;
+    justify-content: center;
+    font-family: Gruppo;
+    font-weight: bolder;
+    font-size: 60px;
+    color: black;
+
+}
+.piccareer{
+    border: black solid 3px;
+    margin: 10px;
+}

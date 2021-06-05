@@ -1,0 +1,34 @@
+.contact{
+    margin-left: 50px;
+    margin-top: 150px;
+    display: flex;
+    flex-direction: row;
+    width: 80%;
+}
+
+.contactinformation{
+    margin-top: 70px;
+    margin-left: 50px;
+    font-family: Gruppo;
+    font-weight: bolder;
+    font-size: 60px;
+    color: black;
+    background-color: darkslategray;
+}
+
+.fontcontatc{
+    margin-top: 50px;
+    font-weight: bolder;
+    font-family: Gruppo;
+    font-size: 30px;
+}
+
+.icons{
+    margin: 10px;
+    display: flex;
+    flex-direction: row;
+}
+
+.marginincons{
+    margin: 10px;
+}
