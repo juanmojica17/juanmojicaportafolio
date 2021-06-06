@@ -1,5 +1,5 @@
 .contact{
-
+    justify-content: space-between;
     margin-top: 150px;
     display: flex;
     flex-direction: row;
@@ -49,9 +49,28 @@
         margin-top: 1px;
         width: 80%;
     }
+    .icons{
+        width: 90%;
+        margin: 10px;
+        display: flex;
+        flex-direction: row;
 }
-@media (max-width: 950px){
+@media (max-width: 995px){
+    .contact{
+        padding-top:20px;
+        display: block;
+    }
+    .contactinformation{
+
+        padding-top: 60px;
+        width: 80%;
+    }
+    .fontcontatc{
+        font-size: 25px;
+
+        width: 80%;
+    }
 
 
 
-}
+}}

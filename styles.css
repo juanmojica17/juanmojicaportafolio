@@ -141,10 +141,7 @@ p{
 
 
 
-    .profile{
-        justify-content: center;
-        display: block;
-    }
+
     .logo{
         width: 100%;
         font-family: Gruppo;
@@ -160,7 +157,10 @@ p{
         margin-top: 20px;
         background-color: black;
 }
-
+    .profile{
+        justify-content: center;
+        display: block;
+    }
     .imgprofile{
         margin: 40px;
         width: 80%;
@@ -204,9 +204,14 @@ p{
         z-index: 9999;
 
     }
+    .profile{
+        padding-top: 85px;
+    }
 }
-@media (max-width: 950px){
+@media (max-width: 535px){
 
+    .button{
 
+        margin-right: 0;
 
-}
+}}
