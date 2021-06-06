@@ -127,6 +127,15 @@ p{
     color: black;
     background-color: darkslategray;
 }
+.presentationtotal{
+
+    width: 50%;
+}
+.sn{
+    display: flex;
+    justify-content: space-between;
+    padding: 70px;
+}
 
 .space{
     height: 70px;
@@ -139,8 +148,14 @@ p{
 
 @media (max-width: 1085px){
 
-
-
+    .presentationtotal{
+        width: 100%;
+        display: block;
+    }
+    .sn{
+        display: block;
+        width: 80%;
+    }
 
     .logo{
         width: 100%;
@@ -169,12 +184,24 @@ p{
 
     .presentation{
 
-        width: 80%;
+        width: 100%;
 
     }
 }
 
 @media (max-width: 995px) {
+    .presentation{
+        justify-content: center;
+        justify-items: center;
+        justify-self: center;
+        margin-left: 50px;
+        width: 100%;
+
+    }
+
+    .profile{
+        justify-content: center;
+    }
     .divbutton {
         margin-left: 40px;
         width: 80%;
@@ -208,10 +235,10 @@ p{
         padding-top: 85px;
     }
 }
-@media (max-width: 535px){
+@media (max-width: 520px){
 
     .button{
-
+        font-size: 20px;
         margin-right: 0;
 
 }}
