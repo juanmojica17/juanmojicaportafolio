@@ -1,14 +1,15 @@
 .contact{
-    margin-left: 50px;
+
     margin-top: 150px;
     display: flex;
     flex-direction: row;
-    width: 80%;
+    width: 100%;
 }
 
 .contactinformation{
+
     margin-top: 70px;
-    margin-left: 50px;
+    /*margin-left: 50px;*/
     font-family: Gruppo;
     font-weight: bolder;
     font-size: 60px;
@@ -17,6 +18,7 @@
 }
 
 .fontcontatc{
+
     margin-top: 50px;
     font-weight: bolder;
     font-family: Gruppo;
@@ -24,11 +26,32 @@
 }
 
 .icons{
+
     margin: 10px;
     display: flex;
     flex-direction: row;
 }
 
 .marginincons{
+
     margin: 10px;
+}
+@media (max-width: 1085px){
+
+    .contact{
+        display: block;
+    }
+    .contactinformation{
+        padding-top: 60px;
+        width: 80%;
+    }
+    .fontcontatc{
+        margin-top: 1px;
+        width: 80%;
+    }
+}
+@media (max-width: 950px){
+
+
+
 }

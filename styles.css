@@ -7,6 +7,12 @@ body{
     background-color: darkslategrey;
 }
 
+.containertotal{
+
+    width: 100%;
+
+}
+
 .textcenter{
 
     margin: 15px;
@@ -34,7 +40,8 @@ p{
 
 
 .logo{
-
+    margin-left: 50px;
+    width: 50%;
     font-family: Gruppo;
     font-weight: bolder;
     font-size: 60px;
@@ -43,7 +50,9 @@ p{
 }
 
 .divbutton{
-    margin-right: 80px;
+    width: 50%;
+    justify-content: space-between;
+    /*margin-right: 50px;*/
     margin-top: 20px;
     background-color: black;
 
@@ -61,6 +70,7 @@ p{
     margin-top: 30px;
     margin-left: 10px;
     margin-right: 20px;
+
 
 
 }
@@ -100,9 +110,9 @@ p{
     margin-top: 60px;
     background-color: darkslategray;
     margin-left: 50px;
-    display: inline;
+   /* display: inline;*/
     width: 50%;
-    border: solid   black   5px;
+   /* border: solid   black   5px;*/
    /* opacity: 70%;*/
 }
 
@@ -122,8 +132,81 @@ p{
     height: 70px;
 }
 
+.inspace{
+    /*width: 1px*/
+}
 
 
-@media (max-width: 720px){
+@media (max-width: 1085px){
+
+
+
+    .profile{
+        justify-content: center;
+        display: block;
+    }
+    .logo{
+        width: 100%;
+        font-family: Gruppo;
+        font-weight: bolder;
+        font-size: 60px;
+        color: darkslategray;
+        background-color: black;
+    }
+
+    .divbutton{
+        width: 90%;
+        margin-right: 80px;
+        margin-top: 20px;
+        background-color: black;
+}
+
+    .imgprofile{
+        margin: 40px;
+        width: 80%;
+
+    }
+
+    .presentation{
+
+        width: 80%;
+
+    }
+}
+
+@media (max-width: 995px) {
+    .divbutton {
+        margin-left: 40px;
+        width: 80%;
+        display: block;
+    }
+
+    #about {
+        width: 90%;
+    }
+
+    #careerseccion {
+        width: 90%;
+    }
+
+    #contactseccion {
+        width: 90%;
+    }
+
+    .menuinicial {
+        position: fixed;
+        /* opacity: 30%;*/
+        display: block;
+        justify-content: space-between;
+        /*background-color:darkslategray;*/
+        background-color: black;
+        width: 100%;
+        z-index: 9999;
+
+    }
+}
+@media (max-width: 950px){
+
+
 
 }
