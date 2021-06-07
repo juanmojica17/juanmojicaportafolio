@@ -8,7 +8,7 @@ body{
 }
 
 .containertotal{
-
+    justify-content: space-between;
     width: 100%;
 
 }
@@ -20,6 +20,7 @@ body{
 
 l{
     font-family: Gruppo;
+    font-weight: bolder;
     font-size: 22px;
 }
 p{
@@ -53,12 +54,12 @@ p{
     width: 50%;
     justify-content: space-between;
     /*margin-right: 50px;*/
-    margin-top: 20px;
+    margin-top: 10px;
     background-color: black;
 
 }
 
-.button{
+/*.button{
 
     cursor: pointer;
     font-size: 30px;
@@ -73,7 +74,7 @@ p{
 
 
 
-}
+}*/
 
 .button divbutton:hover{
 
@@ -142,7 +143,7 @@ p{
 }
 
 .inspace{
-    /*width: 1px*/
+   /* width: 1px;*/
 }
 
 
@@ -235,10 +236,24 @@ p{
         padding-top: 85px;
     }
 }
-@media (max-width: 520px){
-
-    .button{
+@media (max-width: 520px) {
+    .logo{
+        margin-left: 30px;
+    }
+    .button {
         font-size: 20px;
         margin-right: 0;
 
-}}
+    }
+}
+@media (min-width: 430px){
+
+    .logo{
+        margin-left: 30px;
+        width: 70%;
+        align-content: center;
+        align-items: center;
+        justify-items: center;
+        justify-self: center;
+    }
+}

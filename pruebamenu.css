@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.pruebamenu{
+    justify-content: center;
+    display: flex;
+
+}
+.textmenu{
+    margin-left: 10px;
+    font-weight: bolder;
+}
+.menu1{
+    font-weight: bolder;
+    justify-content: space-between;
+    background-color: darkslategray;
+}
+#menu li>a{
+    font-family: Gruppo;
+    font-weight: bolder;
+    color: darkslategray;
+    font-size: 25px;
+    background-color: black;
+    padding: 10px;
+    display: block;
+
+}
+#menu li>a:hover{
+    color: #000;
+    background-color: #eaeaea;
+}
+#menu>li{
+    float: left;
+    text-align:center
+}
+#menu>li>ul{
+    display: none;
+
+    box-sizing: content-box;
+    /*box-sizing: content-box;*/
+
+}
+#menu>li:hover>ul {
+    display:inline-block;
+
+}
