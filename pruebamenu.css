@@ -4,7 +4,7 @@
 }
 .pruebamenu{
     justify-content: center;
-    display: flex;
+   display: flex;
 
 }
 .textmenu{
@@ -13,8 +13,8 @@
 }
 .menu1{
     font-weight: bolder;
-    justify-content: space-between;
-    background-color: darkslategray;
+   /* justify-content: space-between;*/
+   /* background-color: darkslategray;*/
 }
 #menu li>a{
     font-family: Gruppo;
@@ -37,7 +37,7 @@
 #menu>li>ul{
     display: none;
 
-    box-sizing: content-box;
+    /*box-sizing: content-box;*/
     /*box-sizing: content-box;*/
 
 }
