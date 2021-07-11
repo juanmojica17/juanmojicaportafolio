@@ -1,6 +1,6 @@
 .contact{
     justify-content: space-between;
-    margin-top: 150px;
+    margin-top: 5px;
     display: flex;
     flex-direction: row;
     width: 100%;
@@ -8,33 +8,33 @@
 
 .contactinformation{
 
-    margin-top: 70px;
+
     /*margin-left: 50px;*/
-    font-family: Gruppo;
+    font-family: 'Montserrat', sans-serif;
     font-weight: bolder;
     font-size: 60px;
-    color: black;
-    background-color: darkslategray;
+    color: darkslategrey;
+    background-color: black;
 }
 
 .fontcontatc{
-
-    margin-top: 50px;
+    color: darkslategrey;
+    margin-top: 1px;
     font-weight: bolder;
-    font-family: Gruppo;
+    font-family: 'Montserrat', sans-serif;
     font-size: 30px;
 }
 
 .icons{
 
-    margin: 10px;
+    margin: 5px;
     display: flex;
     flex-direction: row;
 }
 
 .marginincons{
-
-    margin: 10px;
+    background-color: black;
+    margin: 8px;
 }
 @media (max-width: 1085px){
 

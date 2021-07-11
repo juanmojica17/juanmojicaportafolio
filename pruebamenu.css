@@ -1,4 +1,7 @@
 *{
+    justify-items: center;
+    justify-content: center;
+    justify-self: center;
     margin: 0;
     padding: 0;
 }
@@ -17,7 +20,7 @@
    /* background-color: darkslategray;*/
 }
 #menu li>a{
-    font-family: Gruppo;
+    font-family: 'Montserrat', sans-serif;
     font-weight: bolder;
     color: darkslategray;
     font-size: 25px;
@@ -45,3 +48,4 @@
     display:inline-block;
 
 }
+
